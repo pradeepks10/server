@@ -19,7 +19,7 @@ export const getPost = async(req,res) =>{
 export const getPosts = async (req,res) => {
    const {page} = req.query;
     try {
-        const LIMIT = 8;
+        const LIMIT = 6;
         //get the  index  of starting post of every page 
         const startIndex = (Number(page) - 1)*LIMIT;
         // count total document, this will help us in fronted to show total no of pages

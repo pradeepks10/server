@@ -22,8 +22,7 @@ app.get("/", (req, res) => {
     res.send("Server is up and running");
   });
 
-// const CONNECTION_URL = 'mongodb+srv://pradeep12:i7tkQKXD193GsVHd@cluster0.pdui5s7.mongodb.net/?retryWrites=true&w=majority'
-// const CONNECTION_URL = 'mongodb+srv://Himanshu_Shriv:jvgFKzLZSRrpNghW@cluster0.lxjzwxr.mongodb.net/?retryWrites=true&w=majority'
+
 const PORT = process.env.PORT||5000;
 mongoose.set('strictQuery', true)
 
